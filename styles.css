@@ -1,0 +1,32 @@
+body {
+	height: 100%;
+	font-family: "Arial", sans-serif;
+	background: -webkit-linear-gradient(#46B8EE, white);
+	background: -o-linear-gradient(#46B8EE, white);
+	background: -moz-linear-gradient(#46B8EE, white);
+	background: linear-gradient(#46B8EE, white);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+div#content {
+	background-color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 90%;
+	border-radius: 20px;
+}
+
+img#logo {
+	margin: auto;
+	display: block;
+}
+
+div#screenshots {
+	margin: auto;
+}
