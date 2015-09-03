@@ -1,11 +1,11 @@
 body {
 	height: 100%;
 	font-family: "Arial", sans-serif;
-	background: -ms-linear-gradient(#46B8EE, white);
-	background: -webkit-linear-gradient(#46B8EE, white);
-	background: -o-linear-gradient(#46B8EE, white);
-	background: -moz-linear-gradient(#46B8EE, white);
-	background: linear-gradient(#46B8EE, white);
+	background: -ms-linear-gradient(#3893BE, #B3B3B3);
+	background: -webkit-linear-gradient(#3893BE, #B3B3B3);
+	background: -o-linear-gradient(#3893BE, #B3B3B3);
+	background: -moz-linear-gradient(#3893BE, #B3B3B3);
+	background: linear-gradient(#3893BE, #B3B3B3);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
