@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ScribbleBlox - Based on Scratch by MIT</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://scratchblocks.github.io/scratchblocks2.css">
+    <script src="http://scratchblocks.github.io/scratchblocks2.js"></script>
+  </head>
+  <body onload="scratchblocks2.parse()">
+    <img src="scribblebloxLogo.png" id="logo" width="179" height="125"/>
+    <div id="navbar">
+      <ul>
+        <li><a href="index.htm">Home</a></li>
+        <li><a href="changes.htm">Additions</a></li>
+        <li><a href="archive.htm">Archive</a></li>
+      </ul>
+    </div>
+    <div id="content">
+      <div id="newBlocks">
+        <p>
+          The new blocks added are:
+        </p>
+        <pre class="blocks" id="scratchblocks">
+// Category: Control
+for each [v v] in [10] :: control cstart // Alpha Version 0.01+
+end
+clear counter :: control stack // Alpha Version 0.01-0.02
+incr counter :: control stack // Alpha Version 0.01-0.02
+while <> :: control cstart // Alpha Version 0.01+
+end
+all at once :: control cstart // Alpha Version 0.01+
+end
+(counter :: control) // Alpha Version 0.01-0.02
+//Category: Looks (sprites only)
+previous costume :: looks // Alpha Version 0.02+
+<visible? :: looks> // Alpha Version 0.01+
+//Category: Operators
+(() ^ ()::operators) // Alpha Version 0.03+
+(newline::operators) // Alpha Version 0.03+
+//Category: ECMAScript (light cyan-blue)
+run JavaScript [] :: grey // Alpha Version 0.01+
+(run JavaScript [] :: grey) // Alpha Version 0.01+
+        </pre>
+        (scratch blocks are rendered by <a href="https://scratchblocks.github.io/">blob8108's scratchblocks2 renderer</a>).
+      </div>
+    </div>
+  </body>
+</html>
