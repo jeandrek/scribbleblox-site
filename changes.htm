@@ -8,15 +8,15 @@
     <script src="http://scratchblocks.github.io/scratchblocks2.js"></script>
   </head>
   <body onload="scratchblocks2.parse()">
-    <img src="scribblebloxLogo.png" id="logo" width="179" height="125"/>
-    <div id="navbar">
+    <img src="scribblebloxLogo.png" id="logo" width="179" height="125" class="shadow"/>
+    <div id="navbar" class="shadow">
       <ul>
         <li><a href="index.htm">Home</a></li>
         <li><a href="changes.htm">Additions</a></li>
         <li><a href="archive.htm">Archive</a></li>
       </ul>
     </div>
-    <div id="content">
+    <div id="content" class="shadow">
       <div id="newBlocks">
         <p>
           The new blocks added are:
@@ -25,12 +25,12 @@
 // Category: Control
 for each [v v] in [10] :: control cstart // Alpha Version 0.01+
 end
-clear counter :: control stack // Alpha Version 0.01-0.02
-incr counter :: control stack // Alpha Version 0.01-0.02
 while <> :: control cstart // Alpha Version 0.01+
 end
 all at once :: control cstart // Alpha Version 0.01+
 end
+clear counter :: control stack // Alpha Version 0.01-0.02
+incr counter :: control stack // Alpha Version 0.01-0.02
 (counter :: control) // Alpha Version 0.01-0.02
 //Category: Looks (sprites only)
 previous costume :: looks // Alpha Version 0.02+
