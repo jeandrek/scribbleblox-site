@@ -29,7 +29,14 @@ function copyChecksum(digest, type) {
 			document.body.removeChild(textArea);
 		}
 	}
-	var copy = prompt('Press CTRL+C and then ENTER or RETURN to copy the checksum', digest);
+	var copy = '';
+	if (navigator.userAgent.indexOf('like Mac OS X') != -1) {
+		copy = prompt('Tap and hold on the text and press Copy and then tap OK to copy the checksum', digest);
+	} else if(navigator.userAgent.indexOf('Mac') != -1) {
+		copy = prompt('Press Cmd+C and then ENTER or RETURN to copy the checksum', digest);
+	} else {
+		copy = prompt('Press CTRL+C and then ENTER or RETURN to copy the checksum', digest);
+	}
 	if(copy == digest) {
 		return true;
 	} else {
