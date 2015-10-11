@@ -8,6 +8,7 @@ body {
 	background: linear-gradient(#3893BE, #B3B3B3);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	margin: 0px;
 }
 
 .shadow {
@@ -61,4 +62,27 @@ div#screenshots {
 
 ul#archive li {
 	padding-left: 10px;
+}
+
+button {
+	background-color: lightgray;
+	border: 1px solid darkgray;
+	border-radius: 4px;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+div#cookie-consent {
+	background-color: #85450A;
+	color: white;
+	margin: auto;
+	padding: 5px 5px 5px 5px;
+	position: fixed;
+	text-align: center;
+	z-index: 1;
+	width: 100%;
+}
+
+p#cookie-consent-notice {
+	margin: 2px;
 }
