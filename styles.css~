@@ -12,7 +12,7 @@ body {
 }
 
 ::selection {
-	background-color: rgba(48, 168, 128, 0.5);
+	background-color: red;
 }
 
 .shadow {
