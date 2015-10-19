@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ScribbleBlox - Based on Scratch by MIT</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://scratchblocks.github.io/scratchblocks2.css">
+    <script src="http://scratchblocks.github.io/scratchblocks2.js"></script>
+    <script src="checksum.js"></script>
+    <script src="cookies.js"></script>
+  </head>
+  <body onload="scratchblocks2.parse(); hideCookieConsent()">
+    <div id="cookie-consent" class="shadow">
+      <p id="cookie-consent-notice">
+        We use tasty freshly-baked cookies to help improve your browsing experience. By using this website you agree to our use of cookies.<br/>
+        We do not collect any of your personal information.
+      </p>
+      <button id="accept-cookie-use" onclick="dismissCookieConsent()">Accept and dismiss</button>
+    </div>
+    <img src="scribblebloxLogo.png" id="logo" width="179" height="125" class="shadow"/>
+    <div id="navbar" class="shadow">
+      <ul>
+        <li><a href="index.htm">Home</a></li>
+        <li><a href="changes.htm">Additions</a></li>
+        <li><a href="archive.htm">Archive</a></li>
+      </ul>
+    </div>
+    <div id="content" class="shadow">
+      <p id="info">
+        Here you can download old previous versions of ScribbleBlox, and the predecessor of ScribbleBlox, My Magical Mod.
+      </p>
+      <p>
+        MM Archive:
+        <ul id="archiveMM">
+          <li>My Magical Mod v1.0 (<a title="MMv1.0.zip" href="archive/MMv1.0.zip">ZIP</a> | <a title="e015c569e58123ebb07477c1efd29a3fd47793aa" href="#" onclick="copyChecksum('e015c569e58123ebb07477c1efd29a3fd47793aa', 'SHA1')">SHA1</a> | <a title="8c35f628243d314e2de676dc6cfff6b7" href="#" onclick="copyChecksum('8c35f628243d314e2de676dc6cfff6b7', 'MD5')">MD5</a>)</li>
+        </ul>
+      </p>
+      <p>
+        ScribbleBlox Archive:
+        <ul id="archive">
+          <li>Alpha Version 0.01</li>
+          <li>Alpha Version 0.02 (<a title="scribbleblox_alpha_0.02.swf" href="archive/scribbleblox_alpha_0.02.swf">SWF</a> | <a title="b5391fbdaa2d55afbfeee22d22c29a96d039f54e" href="#" onclick="copyChecksum('b5391fbdaa2d55afbfeee22d22c29a96d039f54e', 'SHA1')">SHA1</a> | <a title="be3f1e01fb8e8610080e671d1440dbec" href="#" onclick="copyChecksum('be3f1e01fb8e8610080e671d1440dbec', 'MD5')">MD5</a>)</li>
+        </ul>
+      </p>
+    </div>
+  </body>
+</html>

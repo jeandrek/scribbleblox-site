@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ScribbleBlox - Based on Scratch by MIT</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://scratchblocks.github.io/scratchblocks2.css">
+    <script src="http://scratchblocks.github.io/scratchblocks2.js"></script>
+    <script src="cookies.js"></script>
+  </head>
+  <body onload="scratchblocks2.parse(); hideCookieConsent()">
+    <div id="cookie-consent" class="shadow">
+      <p id="cookie-consent-notice">
+        We use tasty freshly-baked cookies to help improve your browsing experience. By using this website you agree to our use of cookies.<br/>
+        We do not collect any of your personal information.
+      </p>
+      <button id="accept-cookie-use" onclick="dismissCookieConsent()">Accept and dismiss</button>
+    </div>
+    <img src="scribblebloxLogo.png" id="logo" width="179" height="125" class="shadow"/>
+    <div id="navbar" class="shadow">
+      <ul>
+        <li><a href="index.htm">Home</a></li>
+        <li><a href="changes.htm">Additions</a></li>
+        <li><a href="archive.htm">Archive</a></li>
+      </ul>
+    </div>
+    <div id="content" class="shadow">
+      <p id="info">
+        Based on Scratch by the Lifelong Kindergarten group at MIT, ScribbleBlox is a modification of Scratch that will<br/>
+        add new blocks and features. The latest version is <b><a id="latest">Alpha Version 0.02</a></b>.
+      </p>
+      <p id="links">
+        You can try the latest version <a href="ScribbleBlox.swf">here</a>.
+        If you would like to contribute or simply look at the source code, the GitHub repository is <a href="https://github.com/Jonathan50/scribbleblox">here.</a>
+      </p>
+      <div id="screenshots">
+        <img src="screenshot.png"/>
+      </div>
+    </div>
+  </body>
+</html>
